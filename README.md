@@ -3,8 +3,6 @@
 ## 1. Deploying from an Amazon S3 bucket.
 
 ```
-# AWS Web Server Deployment Script
-
 ## Description
 
 The AWS Web Server Deployment Script automates the process of setting up a web server on an AWS EC2 instance. It installs Apache HTTP Server (httpd) and deploys a web application from an S3 bucket. The script is written in Bash and designed to run on an Amazon Linux EC2 instance.
@@ -90,10 +88,6 @@ Before running this script, ensure that you have:
 ## 2. Deploying from GitHub Repository.
 
 ```
-# Web Server Deployment Script
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
 The Web Server Deployment Script automates the process of setting up a web server on a Linux-based system. It installs Apache HTTP Server (httpd) and deploys a web application from a specified GitHub repository. The script is written in Bash and designed to run on a Linux system with `yum` package manager.
@@ -102,24 +96,25 @@ The Web Server Deployment Script automates the process of setting up a web serve
 
 Before running this script, ensure that you have:
 
-1. A Linux-based system with `yum` package manager.
-2. Superuser (root) privileges to execute the script and install software packages.
+1. An AWS EC2 instance running with Amazon Linux.
+2. Create a GitHub repo and uploaded your webfiles.
+3. Security Groups to allow HTTP, HTTPS and SSH connections.
 
 ## Installation and Usage
 
 1. Download the deployment script to your Linux system:
    ```bash
-   wget https://raw.githubusercontent.com/yourusername/your-repo-name/main/deploy-web-server.sh
+   wget https://raw.githubusercontent.com/yourusername/your-repo-name/main/script-to-deploy-from-GitHub.sh
    ```
 
 2. Make the script executable:
    ```bash
-   chmod +x deploy-web-server.sh
+   chmod +x script-to-deploy-from-GitHub.sh
    ```
 
 3. Execute the script with superuser privileges:
    ```bash
-   sudo ./deploy-web-server.sh
+   sudo ./script-to-deploy-from-GitHub.sh
    ```
 
 ## Script Steps
@@ -174,4 +169,4 @@ Before running this script, ensure that you have:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Replace `[yourusername]` and `[your-repo-name]` in the script download link with your actual GitHub username and repository name. Additionally, customize the README with any specific instructions or explanations related to your script.
+Replace `[iamafisu]` and `[Deploy-HTML-Website-on-AWS]` in the script download link with your actual GitHub username and repository name. Additionally, customize the README with any specific instructions or explanations related to your script.
