@@ -1,11 +1,9 @@
 # Deploy-HTML-Website-on-AWS
 
-## Certainly! Below is a template for a README file for your GitHub repository containing the provided script.
+## 1. Deploying from an Amazon S3 bucket.
 
 ```
 # AWS Web Server Deployment Script
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -16,7 +14,9 @@ The AWS Web Server Deployment Script automates the process of setting up a web s
 Before running this script, ensure that you have:
 
 1. An AWS EC2 instance running with Amazon Linux.
-2. Appropriate IAM permissions to access S3 buckets and install software packages.
+2. An Amazon S3 bucket created.
+3. Appropriate IAM permissions to access S3 buckets and install software packages.
+4. Security Groups to allow HTTP, HTTPS and SSH connections.
 
 ## Installation and Usage
 
@@ -24,17 +24,17 @@ Before running this script, ensure that you have:
 
 2. Download the deployment script to your instance:
    ```bash
-   wget https://raw.githubusercontent.com/yourusername/your-repo-name/main/deploy-web-server.sh
+   wget https://raw.githubusercontent.com/yourusername/your-repo-name/main/script-to-deploy-from-S3.sh
    ```
 
 3. Make the script executable:
    ```bash
-   chmod +x deploy-web-server.sh
+   chmod +x script-to-deploy-from-S3.sh
    ```
 
 4. Execute the script with superuser privileges:
    ```bash
-   sudo ./deploy-web-server.sh
+   sudo ./script-to-deploy-from-S3.sh
    ```
 
 ## Script Steps
@@ -87,7 +87,7 @@ Before running this script, ensure that you have:
 
 
 
-Certainly! Below is a template for a README file for your GitHub repository containing the provided script.
+## 2. Deploying from GitHub Repository.
 
 ```
 # Web Server Deployment Script
