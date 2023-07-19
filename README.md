@@ -1,6 +1,6 @@
 # Deploy-HTML-Website-on-AWS
 
-##Certainly! Below is a template for a README file for your GitHub repository containing the provided script.
+## Certainly! Below is a template for a README file for your GitHub repository containing the provided script.
 
 ```
 # AWS Web Server Deployment Script
@@ -83,6 +83,7 @@ Before running this script, ensure that you have:
    ```bash
    systemctl start httpd
    ```
+
 
 
 
