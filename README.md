@@ -84,12 +84,6 @@ Before running this script, ensure that you have:
    systemctl start httpd
    ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Replace `[yourusername]` and `[your-repo-name]` in the script download link with your actual GitHub username and repository name. Additionally, customize the README with any specific instructions or explanations related to your script.
 
 
 Certainly! Below is a template for a README file for your GitHub repository containing the provided script.
